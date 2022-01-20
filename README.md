@@ -1,5 +1,9 @@
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=aliartiza75_lomo)
 
+[![CodeQL](https://github.com/aliartiza75/lomo/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/aliartiza75/lomo/actions/workflows/codeql-analysis.yml)
+
+[![Python application](https://github.com/aliartiza75/lomo/actions/workflows/python-app.yml/badge.svg)](https://github.com/aliartiza75/lomo/actions/workflows/python-app.yml)
+
 # lomo
 
 ## Overview
