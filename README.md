@@ -26,7 +26,3 @@ The idea is to develop a framework that will allows the users to:
 2. centralized way to update the monitoring rules.
 
 
-
-
-# Contribute & Support
-Contribution are welcome!
