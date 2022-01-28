@@ -24,8 +24,9 @@ jobs:
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Generate dependencies map using Cyclonedx
+      env:
+        SECRET_PAT: ${{ secrets.PAT }}
       run: |
-        x=${{ secrets.PAT }}
-        echo $x
+        echo $SECRET_PAT
         cyclonedx-bom -e --format json -o cyclonedx/cyclonedx-output.json
 
