@@ -27,6 +27,6 @@ jobs:
       env:
         TEST: ${{ secrets.TEST }}
       run: |
-        echo $TEST
+        echo TEST
         cyclonedx-bom -e --format json -o cyclonedx/cyclonedx-output.json
 
