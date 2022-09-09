@@ -21,7 +21,7 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=aliartiza75_lomo&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=aliartiza75_lomo)
 
 
-## Custom Python Badges
+## Python Code Quality Badges
 
 [![CodeQL](https://github.com/aliartiza75/lomo/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/aliartiza75/lomo/actions/workflows/codeql-analysis.yml)
 [![Python application](https://github.com/aliartiza75/lomo/actions/workflows/python-app.yml/badge.svg)](https://github.com/aliartiza75/lomo/actions/workflows/python-app.yml)
