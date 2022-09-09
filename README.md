@@ -25,4 +25,8 @@ The idea is to develop a framework that will allows the users to:
 1. custom monitoring/alerts rules
 2. centralized way to update the monitoring rules.
 
+## Contributions
 
+1. Enable prepare commit hook. Follow the guidelines provided on this [blog](https://aliartiza75.medium.com/add-git-branch-name-to-each-commit-3acb60ab6bc9).
+
+2. 
