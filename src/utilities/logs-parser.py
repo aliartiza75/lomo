@@ -6,8 +6,19 @@ class LogParser:
     Generic log parser class for log files
     """
     
-    def __init__(self):
+    def __init__(self, config):
+        """
+        LogParser Class initializer.
 
+        config [dict]: It contains LogParser configuration
+        
+        example:
+        {
+            source: zookeeper | file,
+            file_path: /etc/lomo/config.json
+            zk_hostL localhost
+        }
+        """
         pass
 
     def load_configuration(self, source):
