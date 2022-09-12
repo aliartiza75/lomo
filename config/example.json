@@ -7,5 +7,22 @@
 # 		     and output sources
 #####################################################################
 #
-# 
+ 
+######################################
+#    Global Configurations
+######################################
+{
+  "global": {
+
+	"log_level": debug | info | warning | error,
+	"logs_dir": "/var/log/lomo/yyyy-mm-dd.log",
+	"log_retention": 1d | 1m | 1y,
+  }
+
+
+
+}
+
+
+#  AWS Elasticsearch
 #
