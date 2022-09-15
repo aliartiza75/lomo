@@ -23,6 +23,16 @@
 
 }
 
-
+###########################################
 #  AWS Elasticsearch
-#
+##########################################
+#  "input": {
+#  	"host": "127.0.0.1",
+#       "port": 9200,
+#       "index": "logs",
+# 	"type": "log_type",
+#	"auth": {
+#		"method": "file | IAM",
+#		"file_path": "/config_file_path"
+#	}
+#  }
