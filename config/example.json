@@ -30,8 +30,8 @@
 #################
 {
    "input": {
-   	"file_location": "/var/logs/apache2/error.log"
-        "file_pattern": "" 
+   	"file_location": "/var/logs/apache2/",
+        "file_pattern": "*.log"
    }
 
 
