@@ -28,14 +28,27 @@
 #################
 ### LOG FILE ####
 #################
-{
-   "input": {
-   	"file_location": "/var/logs/apache2/",
-        "file_pattern": "*.log"
-   }
+
+#   "input": {
+#   	"file_location": "/var/logs/apache2/",
+#        "file_pattern": "*.log"
+#   }
+
+#####################
+### Elasticsearch ###
+#####################
 
 
-}
+#   "input": {
+#	"host": "elasticsearch.com",
+# 	"port": "9200",
+#	"index": "logs*",
+#	"auth": {
+#		"method": "password | file | IAM",
+#		"file_path": "/config_file_path",
+#	}
+#
+#   }
 
 
 ####################################
@@ -51,7 +64,7 @@
 #       "index": "logs",
 # 	"type": "log_type",
 #	"auth": {
-#		"method": "file | IAM",
+#		"method": "password | file | IAM",
 #		"file_path": "/config_file_path"
 #	}
 #  }
