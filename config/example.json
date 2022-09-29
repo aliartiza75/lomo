@@ -43,6 +43,7 @@
 #	"host": "elasticsearch.com",
 # 	"port": "9200",
 #	"index": "logs*",
+#       "type": "logs_type"
 #	"auth": {
 #		"method": "password | file | IAM",
 #		"file_path": "/config_file_path",
