@@ -1,0 +1,74 @@
+####################################################################
+# Lomo configuration file
+#
+# Github Repository: https://github.com/aliartiza75/lomo
+#
+# Purpose:	     This file contains examples for different input
+# 		     and output sources
+#####################################################################
+#
+ 
+######################################
+#    Global Configurations
+######################################
+{
+  "global": {
+
+	"log_level": debug | info | warning | error,
+	"logs_dir": "/var/log/lomo/yyyy-mm-dd.log",
+	"log_retention": 1d | 1m | 1y,
+  }
+
+
+
+###################################
+### INPUT PLUGING CONFIGURATION ###
+###################################
+
+#################
+### LOG FILE ####
+#################
+
+#   "input": {
+#   	"file_location": "/var/logs/apache2/",
+#        "file_pattern": "*.log"
+#   }
+
+#####################
+### Elasticsearch ###
+#####################
+
+
+#   "input": {
+#	"host": "elasticsearch.com",
+# 	"port": "9200",
+#	"index": "logs*",
+#       "type": "logs_type"
+#	"auth": {
+#		"method": "password | file | IAM",
+#		"file_path": "/config_file_path",
+#	}
+#
+#   }
+
+
+####################################
+### OUTPUT PLUGINS CONFIGURATION ###
+####################################
+
+###########################################
+#  AWS Elasticsearch
+##########################################
+#  "output": {
+#  	"host": "127.0.0.1",
+#       "port": 9200,
+#       "index": "logs",
+# 	"type": "log_type",
+#	"auth": {
+#		"method": "password | file | IAM",
+#		"file_path": "/config_file_path"
+#	}
+#  }
+
+
+}
